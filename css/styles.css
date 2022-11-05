@@ -1,6 +1,20 @@
 body {
   background-color: #fff8ea;
+  color: #815b5b;
 }
+
+h1 {
+  color: #594545;
+}
+
+h2 {
+  color: #594545;
+}
+
+h3 {
+  color: #594545;
+}
+
 hr {
   background-color: #fff8ea;
   border-style: none;
