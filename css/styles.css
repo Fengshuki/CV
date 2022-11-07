@@ -1,21 +1,124 @@
+/**********************Tags**********************/
+a {
+  color: #11999e;
+}
 body {
-  background-color: #fff8ea;
-  color: #815b5b;
+  background-color: white;
+  color: black;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
 }
 
 h1 {
-  color: #594545;
+  color: #66bfbf;
+  font-family: "Permanent Marker", cursive;
+  font-size: 7rem;
+  line-height: 2;
+  margin: 2rem auto 0;
+}
+
+h2 {
+  color: #66bfbf;
+  font-size: 2.5rem;
+  font-weight: normal;
 }
 
 h3 {
-  color: #594545;
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
 }
 
 hr {
-  background-color: #fff8ea;
+  background-color: white;
   border-style: none;
   border-top-style: dotted;
   border-width: 0.5rem;
+  color: #eaf6f6;
   width: 4%;
-  color: #9e7676;
+  margin: 100px auto;
+}
+
+/**********************Classes**********************/
+
+/*top section*/
+.top {
+  margin: 0;
+  position: relative;
+  background-color: #eaf6f6;
+}
+
+/*clouds*/
+.clouds {
+  width: 10%;
+}
+
+.cloud-top {
+  position: relative;
+  left: 20%;
+}
+
+.cloud-bottom {
+  right: 20%;
+  position: relative;
+}
+/*clouds end*/
+
+.intro {
+  padding: 3%;
+  height: 40%;
+}
+
+.mountain {
+  height: 50%;
+  position: relative;
+}
+/*top section end*/
+
+.middle {
+  padding: 3%;
+}
+
+.profile {
+  width: 20%;
+  margin: auto;
+  line-height: 2;
+}
+
+.my-pic {
+  border-radius: 100%;
+  width: 60%;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-imgs {
+  border-radius: 100%;
+  background-color: #eaf6f6;
+}
+
+.coding-img {
+  float: left;
+  width: 20%;
+  margin-right: 30px;
+}
+
+.gaming-img {
+  float: right;
+  margin-left: 30px;
+  width: 15%;
+}
+
+.bottom {
+  background-color: #66bfbf;
 }
