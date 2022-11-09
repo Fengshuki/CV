@@ -9,6 +9,7 @@ body {
   font-size: 1rem;
   text-align: center;
   margin: 0;
+  height: 100%;
 }
 
 h1 {
@@ -40,6 +41,9 @@ hr {
   margin: 100px auto;
 }
 
+html {
+  height: 100%;
+}
 /**********************Classes**********************/
 
 /*top section*/
